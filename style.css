@@ -1,1 +1,89 @@
-gfhhffh
+
+.first{
+    text-align: center;
+    background-image: url(/images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding-top: 1%;
+}
+.donate-button{
+    text-align: center;
+    padding-bottom: 100px;
+    text-emphasis-color: white;
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.contanier{
+    text-align: center;
+    list-style: none;
+}
+li{
+    background-color: rgb(185, 169, 169);
+    text-align: left;
+    display: inline-block;
+
+}
+.second{
+   text-align: center;
+}
+.third{
+    text-align: center;
+    padding-top: .5cm;
+}
+#box1{
+    width: 50%;
+    height: 6.5cm;
+     background-color:rgb(224, 211, 211);
+     display: inline-block;
+     background-image: url(images/food.png);
+     background-repeat: no-repeat;
+     border: solid 5px white;
+}
+#box2{
+    width: 50%;
+    height: 6.5cm;
+    background-color:  rgb(227, 182, 227); 
+    display: inline-block;
+    background-image: url(images/shelter.png);
+     background-repeat: no-repeat;
+     border: solid 5px white;
+}
+#box3{
+    width: 50%;
+    height: 6.5cm;
+    background-color:  rgb(199, 210, 177);
+    display: inline-block;
+    background-image: url(images/Frame-1.png);
+     background-repeat: no-repeat;
+     border: solid 5px white;
+}
+.box-wrapper {  
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+section{
+    display: flex;
+}
+.half-width{
+   width: 50%;
+   padding: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.box{
+    background-color: antiquewhite;
+    margin: auto;
+    width: 400px;
+    height: 100px;
+}
+.email{
+    margin: auto;
+}
