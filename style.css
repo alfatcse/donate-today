@@ -1,7 +1,7 @@
 
 .first{
     text-align: center;
-    background-image: url(/images/donation0.jpg);
+    background-image: url(/images/donation7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size:cover ;
@@ -86,4 +86,15 @@ section{
 }
 .email{
     margin: auto;
+}
+footer h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    
+}
+footer{
+   background-image: url(images/10930529.jpeg);
+    text-decoration-color: bisque;
 }
